@@ -20,3 +20,10 @@ Sposób realizacji zadania:
 * Na tak przetworzonej liście aukcji budowana jest mapa częśtości poszczególnych słow
 * Zadana aukcja którą chcemy kategoryzować przetwarzana jest analogicznie jak pozostałe
 * Zadana aukcja porównywana jest z każdą inną pod kątem wspólnych słow. Za każde takie słowo aukcja dostaje 1 / (ilość wystąpień słowa) punktów. W ten sposób promujemy słowa rzadkie. Aukcja o największej ilości punktów zwracana jest jako najbardziej podobna, a jej kategorie jako najbardziej prawdopodobne kategorie aukcji o którą pytamy
+
+----
+
+Sposób uruchamiania:
+* Zadanie zrealizowano w języku Python 2.7
+* W celu uruchomienia crawlera należy z katalogu projektu wykonać komendę: "python crawler.py". Słowa po których przeglądamy bazę allegro zawarte są w kodzie.
+* W celu uruchomienia właściwego zadania, należy z katalogu projektu wykonać komendę: "python reader.py". Zapytania do programu zawarte są w kodzie, na dole pliku reader.py
