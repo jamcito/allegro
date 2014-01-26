@@ -25,5 +25,5 @@ Sposób realizacji zadania:
 
 Sposób uruchamiania:
 * Zadanie zrealizowano w języku Python 2.7
-* W celu uruchomienia crawlera należy z katalogu projektu wykonać komendę: "python crawler.py". Słowa po których przeglądamy bazę allegro zawarte są w kodzie.
+* W celu uruchomienia crawlera należy z katalogu projektu wykonać komendę: "python crawler-public.py". Słowa po których przeglądamy bazę allegro zawarte są w kodzie.
 * W celu uruchomienia właściwego zadania, należy z katalogu projektu wykonać komendę: "python reader.py". Przykładowe zapytania do programu zawarte są w kodzie, na dole pliku reader.py
