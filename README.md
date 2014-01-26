@@ -17,7 +17,7 @@ Sposób realizacji zadania:
 * Wszystkie aukcje pozbawiane są interpunkcji i sprowadzane do formy podstawowej
 * Usuwane są słowa występujące tylko raz
 * Aplikowana jest stoplista
-* Na tak przetworzonej liście aukcji budowana jest mapa częśtości poszczególnych słow
+* Na tak przetworzonej liście aukcji budowana jest mapa częstości poszczególnych słów
 * Zadana aukcja którą chcemy kategoryzować przetwarzana jest analogicznie jak pozostałe
 * Zadana aukcja porównywana jest z każdą inną pod kątem wspólnych słow. Za każde takie słowo aukcja dostaje 1 / (ilość wystąpień słowa) punktów. W ten sposób promujemy słowa rzadkie. Aukcja o największej ilości punktów zwracana jest jako najbardziej podobna, a jej kategorie jako najbardziej prawdopodobne kategorie aukcji o którą pytamy
 
