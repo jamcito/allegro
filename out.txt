@@ -1,0 +1,68 @@
+
+Query:
+     interaktywna kotka w mobilnym barze, świetny prezent dla dziewczynki
+Similar Auction:
+     Kotkowy AUTOBUS KITTY BUS dla kotków MOBILNY BAR !
+Categories: 
+    - Hello Kitty
+    - Figurki
+    - Zabawki
+
+**************
+
+Query:
+     pluszowy miś 60cm szary
+Similar Auction:
+     OGROMNY  PLUSZOWY MIŚ 90CM- PREZENT
+Categories: 
+    - Misie
+    - Zwierzątka
+    - Maskotki
+    - Zabawki
+
+**************
+
+Query:
+     "sezon burz", najnowsza powieść Sapkowskiego, twarda oprawa
+Similar Auction:
+     Wiedźmin SEZON BURZ Sapkowski PREZENT Wys 48h
+Categories: 
+    - Polskie
+    - Fantasy
+    - Literatura piękna, popularna i faktu
+
+**************
+
+Query:
+     zestaw: bransoletka, obrączka, naszyjnik, złoto 12 karatów
+Similar Auction:
+     ***NOKIA J BH-806 SŁUCHAWKA ZŁOTA 18 KARAT PREZENT
+Categories: 
+    - Bluetooth
+    - Zestawy słuchawkowe
+    - Akcesoria GSM
+
+**************
+
+Query:
+     zestaw: bransoletka, obrączka, naszyjnik, masa perłowa! przesyłka natychmiastowa!
+Similar Auction:
+     KOMPLET SREBNY Z MASĄ PERŁOWĄ NA PREZENT 24H
+Categories: 
+    - Komplety
+    - Biżuteria damska
+
+**************
+
+Query:
+     wielofunkcyjny robot kuchenny zelmer 173842
+Similar Auction:
+     Urządzenie wielofunkcyjne  7w1 ROBOT KUCHENNY
+Categories: 
+    - Roboty kuchenne
+    - Do kuchni
+    - AGD drobne
+
+**************
+TESTING FOR 4300 ITEMS
+MATCHES:  0.721162790698
