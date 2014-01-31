@@ -8,6 +8,8 @@ from collections import Counter, defaultdict
 from plp import PLP
 from gensim import corpora, models, similarities
 from sets import Set
+from random import shuffle
+from time import sleep
 
 UTF8Writer = getwriter('utf8')
 sys.stdout = UTF8Writer(sys.stdout)
@@ -76,12 +78,9 @@ class SimilaritiesFinder:
                     score = score + self.calculateWordScore(word)
             title_scores[original] = score
         winner =  max (title_scores, key=lambda k: title_scores[k])
-        print 'Similar Auction:'
-        print '    ', winner
         for (name, cats) in items_categories:
             if name == winner:
-                printCategories(cats)
-                break
+                return (name, cats)
         
 
 def printCategories (cats):
@@ -96,7 +95,7 @@ def printItemsWithCategories ():
     print 'TOTAL OF ' + str(len(items_categories)) + ' ITEMS READ.'
 
     
-auctions = [
+'''auctions = [
 u'interaktywna kotka w mobilnym barze, świetny prezent dla dziewczynki',
 u'pluszowy miś 60cm szary',
 u'"sezon burz", najnowsza powieść Sapkowskiego, twarda oprawa',
@@ -104,12 +103,34 @@ u'zestaw: bransoletka, obrączka, naszyjnik, złoto 12 karatów',
 u'zestaw: bransoletka, obrączka, naszyjnik, masa perłowa! przesyłka natychmiastowa!',
 u'wielofunkcyjny robot kuchenny zelmer 173842']
 
-finder = SimilaritiesFinder([name for name, categories in items_categories])
 
+
+finder = SimilaritiesFinder([name for name, categories in items_categories])
 for auction in auctions:
     print
     print 'Query:'
     print '    ', auction
-    finder.find(auction)
+
+    name, cats = finder.find(auction)
+    
+    print 'Similar Auction:'
+    print '    ', name
+
+    printCategories (cats)
     print
     print '**************'
+'''
+
+
+'''shuffle (items_categories)
+split_index = len (items_categories) / 10
+print (split_index)
+finder = SimilaritiesFinder([name for name, categories in items_categories[split_index:]])
+
+points = 0
+for (auction, categories) in items_categories[:split_index]:
+    (name, cats) = finder.find(auction)
+    if int(cats[0]) == int(categories [0]):
+        points = points+1
+
+print 'MATCHES: ', float(points)/split_index'''
